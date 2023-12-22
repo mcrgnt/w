@@ -1,4 +1,4 @@
-package test
+package w
 
 func Test() {
 	println("JAJAJA")
