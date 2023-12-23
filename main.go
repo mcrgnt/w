@@ -4,7 +4,7 @@ import (
 	"github.com/go-gl/glfw/v3.2/glfw"
 )
 
-func createWindow(w, h int, title string) (window *glfw.Window, err error) {
+func CreateWindow(w, h int, title string) (window *glfw.Window, err error) {
 	if err = glfw.Init(); err != nil {
 		return
 	}
