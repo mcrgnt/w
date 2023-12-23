@@ -24,3 +24,7 @@ func CreateWindow(w, h int, title string) (window *glfw.Window, err error) {
 
 	return
 }
+
+func Draw(_ *glfw.Window) {
+
+}
